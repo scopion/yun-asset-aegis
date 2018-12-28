@@ -133,7 +133,7 @@ public class Aegis {
                             }else{
                                  solution2 = "";
                             }
-	                        String riskfoundtime = warningList.get(i).getRirstFoundTime();
+	                        String riskfoundtime = warningList.get(i).getlastTime();
                             db.insertwarning(uuid,arn,riskName,level,checkItem,value,solution1,solution2,riskfoundtime);
                         }
                     }
